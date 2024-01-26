@@ -1,0 +1,21 @@
+// FOOTER
+
+
+footer {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 5px black solid;
+    text-align: center;
+    background-color: rgb(86, 165, 192) /*por alguna razon $color-bordertop no me lo toma aca, me tira error */;
+  
+    p {
+        @include anclas;
+    
+    }
+  
+    i {
+      margin-right: 10px;
+    }
+  }
+  

@@ -1,0 +1,29 @@
+/* HEADER */
+
+.encabezado {
+
+    background-color: $color-fondo;
+    border-top: 20px solid rgb(86, 165, 192);
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 20px;
+
+    h1 {
+        text-transform: uppercase;
+        font-weight: 600;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
+        font-size: 3rem;
+    }
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+
+        a:hover {
+            color: rgb(86, 165, 192);
+        }
+    }
+}

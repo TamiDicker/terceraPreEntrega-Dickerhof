@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TyS Travel Blog</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body class="container-fluid">
+    <!-- Nav Bar Boostrap -->
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"></a>
+            <img class="imgLogo" src="./img/logo2.png" alt="imglogo">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/paquetes.html">Paquetes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/destinos.html">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+
+    <main>
+
+        <!-- Carousel -->
+
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators" >
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/portada.jpg" class="d-block w-100" alt="portada">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>TyS Travel Blog</h5>
+                        <p>Bienvenidos a nuestro Blog!</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/budaparla.png" class="d-block w-100" alt="budaparla">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Budapest</h5>
+                        <p>Capital de Hungria</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/viena.png" class="d-block w-100" alt="viena">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Viena</h5>
+                        <p>Capital de Austria</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/split.png" class="d-block w-100" alt="split">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Split</h5>
+                        <p>Capital de Croacia</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="img/praga.png" class="d-block w-100" alt="praga">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Praga</h5>
+                        <p>Capital de Republica Checa</p>
+                    </div>
+                </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <!-- PAQUETES -->
+
+        <div class="destinos">
+            <h2>Destinos</h2>
+
+        </div>
+
+        <!-- CARDS -->
+
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img src="img/budaparla.png" class="card-img-top" alt="budaparla">
+                    <div class="card-body">
+                        <h5 class="card-title">Budapest</h5>
+                        <p class="card-text">Ciudad de Hungria</p>
+                        <a href="#" class="btn btnLetsGo">Lets Go!</a>
+                    </div>
+                </div>
+
+
+
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img src="img/viena.png" class="card-img-top" alt="viena">
+                    <div class="card-body">
+                        <h5 class="card-title">Viena</h5>
+                        <p class="card-text">Ciudad de Austria</p>
+                        <a href="#" class="btn btnLetsGo">Lets Go!</a>
+                    </div>
+                </div>
+
+
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img src="img/split.png" class="card-img-top" alt="split">
+                    <div class="card-body">
+                        <h5 class="card-title">Split</h5>
+                        <p class="card-text"> Ciudad de Croacia</p>
+                        <a href="#" class="btn btnLetsGo">Lets Go!</a>
+                    </div>
+                </div>
+
+
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img src="img/milan.jpeg" class="card-img-top" alt="milan">
+                    <div class="card-body">
+                        <h5 class="card-title">Milan</h5>
+                        <p class="card-text"> Ciudad de Italia</p>
+                        <a href="#" class="btn btnLetsGo">Lets Go!</a>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img src="img/venecia.jpg" class="card-img-top" alt="venecia">
+                    <div class="card-body">
+                        <h5 class="card-title">Venecia</h5>
+                        <p class="card-text"> Ciudad de Italia</p>
+                        <a href="#" class="btn btnLetsGo">Lets Go!</a>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img src="img/dubrovnik.png" class="card-img-top" alt="dubrovnik">
+                    <div class="card-body">
+                        <h5 class="card-title">Dubrovnik</h5>
+                        <p class="card-text"> Ciudad de Croacia</p>
+                        <a href="#" class="btn btnLetsGo">Lets Go!</a>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img src="img/dubrovnik.png" class="card-img-top" alt="dubrovnik">
+                    <div class="card-body">
+                        <h5 class="card-title">Dubrovnik</h5>
+                        <p class="card-text"> Ciudad de Croacia</p>
+                        <a href="#" class="btn btnLetsGo">Lets Go!</a>
+                    </div>
+                </div>
+
+                <div class="card col-xl-3 col-md-6 col-sm-12">
+                    <img src="img/dubrovnik.png" class="card-img-top" alt="dubrovnik">
+                    <div class="card-body">
+                        <h5 class="card-title">Dubrovnik</h5>
+                        <p class="card-text"> Ciudad de Croacia</p>
+                        <a href="#" class="btn btnLetsGo">Lets Go!</a>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+    </main>
+
+
+
+    <footer>
+        <p>Sitio web creado por Tamara Dickerhof - Derechos reservados </p>
+        <p id="final">No copiar</p>
+
+    </footer>
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
