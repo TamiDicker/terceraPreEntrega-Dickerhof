@@ -12,6 +12,8 @@
     object-fit: cover;
     border-bottom-right-radius: 0px;
     border-bottom-right-radius: 0px;
+    display: inline-block;
+    
 }
 
 .card {
@@ -23,5 +25,38 @@
 
     p {
         line-height: 1.4rem;
+
     }
 }
+
+
+
+.btnComprarTour {
+    background: linear-gradient(to bottom,$color-bordertop, $color-fondo);
+    padding: 10px;
+    color: black;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 1.5s;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.4);
+
+    &:hover {
+        width: 200px;
+        background: linear-gradient(to top,$color-bordertop, $color-fondo);
+
+
+    }
+
+}
+
+.cardPaquete {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    padding-bottom: 100px;
+
+
+}
+

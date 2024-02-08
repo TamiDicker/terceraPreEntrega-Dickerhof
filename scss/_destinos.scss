@@ -2,102 +2,102 @@
 
 
 .destinos {
-    background-color: lightblue;
-    color: $color-fuente; 
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 16px;
-    margin-top: 30px;
-    margin-bottom: 50px;
-  
-    h2 {
-      font-size: 3rem;
-    }
-  }
-  
-  .btnLetsGo {
-    background-color: rgb(147, 215, 238);
-    color: $color-fuente;
-  
-    &:hover {
-      background-color: rgb(86, 165, 192);
-      color: $color-fuente; 
-    }
-  }
-  
+  background-color: lightblue;
+  color: $color-fuente;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 16px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+
   h2 {
-    text-align: center;
+    font-size: 3rem;
   }
-  
-  .contenedorFlex {
-    margin: auto;
-    width: 90%;
-    max-width: 1000px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+}
+
+.btnLetsGo {
+  background-color: $color-fondo;
+  color: $color-fuente;
+
+  &:hover {
+    background-color: $color-bordertop;
+    color: $color-fuente;
   }
-  
-  .main {
-    background: rgb(147, 215, 238);
-    padding: 20px;
-    width: 70%;
-    border-bottom: 20px solid rgb(53, 124, 147);
-    padding-bottom: 30px;
-  
-    article {
-      .thumb {
-        margin-bottom: 20px;
-  
-        img {
-          width: 100%;
-          vertical-align: top;
-        }
-      }
-  
-      h3 {
-        margin-bottom: 20 px;
-        font-weight: normal;
-        font-size: 2rem;
-      }
-  
-      p {
-        margin-bottom: 20px;
-        font-size: 1rem;
-        line-height: 27px;
-      }
-    }
-  }
-  
-  aside {
-    width: 30%;
-    background-color: rgb(86, 165, 192);
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    border-bottom: 20px solid rgb(53, 124, 147);
-  
-    .ad {
-      font-size: 30px;
-      text-align: center;
-      color: $color-fuente; 
-      padding: 50px 0;
-      background-color: #4264a2;
+}
+
+h2 {
+  text-align: center;
+}
+
+.contenedorFlex {
+  margin: auto;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.main {
+  background: $color-fondo;
+  padding: 20px;
+  width: 70%;
+  border-bottom: 20px solid rgb(53, 124, 147);
+  padding-bottom: 30px;
+
+  article {
+    .thumb {
       margin-bottom: 20px;
-  
-      .adImag {
-        width: 60%;
-        background-color: #fafafa;
-        border-radius: 20px;
+
+      img {
+        width: 100%;
+        vertical-align: top;
       }
     }
-  
-    .map {
-      width: 30%;
-      height: 20px;
-      display: flex;
+
+    h3 {
+      margin-bottom: 20 px;
+      font-weight: normal;
+      font-size: 2rem;
+    }
+
+    p {
+      margin-bottom: 20px;
+      font-size: 1rem;
+      line-height: 27px;
     }
   }
-  
+}
+
+aside {
+  width: 30%;
+  background-color: rgb(86, 165, 192);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  border-bottom: 20px solid rgb(53, 124, 147);
+
+  .ad {
+    font-size: 30px;
+    text-align: center;
+    color: $color-fuente;
+    padding: 50px 0;
+    background-color: #4264a2;
+    margin-bottom: 20px;
+
+    .adImag {
+      width: 60%;
+      background-color: #fafafa;
+      border-radius: 20px;
+    }
+  }
+
+  .map {
+    width: 30%;
+    height: 20px;
+    display: flex;
+  }
+}
+

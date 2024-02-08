@@ -31,9 +31,33 @@
     }
   }
   
-  @media (max-width: 800px) {
+  @media (max-width: 1200px) {
     aside .map {
       display: none;
     }
   }
+  
+
+  @media (max-width: 800px) {
+    .mainPost {
+      width: 100%;
+    }
+  
+    .asidePost {
+      width: 100%;
+      flex-direction: row;
+  
+      .ad {
+        width: 40%;
+      }
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .asidePost {
+      display: none;
+    }
+  }
+  
+  
   

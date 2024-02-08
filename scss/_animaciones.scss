@@ -1,0 +1,17 @@
+@keyframes titulos {
+    0% {
+        opacity: 0;
+    }
+
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+.tituloAnimacion {
+    animation-name: titulos;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+

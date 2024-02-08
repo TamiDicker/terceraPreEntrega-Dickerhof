@@ -2,105 +2,265 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TyS Travel Blog- Paquetes</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="No sabes que hacer en Europa? aca te mostramos los diferentes paquetes que tenemos para vos">
+  <meta name="keywords" content="Viajes, Europa, Turismo, Avion, Pasajes, Visa, Euro ">
 
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="../css/estilo.css">
+  <title>TyS Travel Blog- Paquetes</title>
+
+  <!--------------------------------- Bootstrap -------------------------------------------->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!--------------------------------- CSS -------------------------------------------->
+  <link rel="stylesheet" href="../css/estilo.css">
 
 
 </head>
 
 <body class="container-fluid">
-    <!-- Nav Bar -->
-    <header class="navbar navbar-expand-lg encabezado">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"></a>
-            <img class="imgLogo" src="../img/logo2.png" alt="imglogo">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../html/paquetes.html">Paquetes</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../html/destinos.html">Destinos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../html/contacto.html">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <!--------------------------------- NAV BAR -------------------------------------------->
+  <header class="navbar navbar-expand-lg encabezado">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <div>
+        <a href="../index.html">
+          <img class="imgLogo" src="../img/logo2.png" alt="imglogo">
+        </a>
+      </div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <nav class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/paquetes.html">Paquetes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/destinos.html">Destinos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/posts.html">Posts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../html/contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
 
-    <main>
+  <main>
 
-        <h1>Paquetes</h1>
+    <h1 class="tituloAnimacion">Paquetes</h1>
+    <h2>Aca podes encontrar paquetes a tu medida!</h2>
 
-        <div class="blue-bg">
 
-           
-        <div class="card col-xl-3 col-md-6 col-sm-12" style="max-width: 540px;">
+    <div class="container-fluid ">
+      <div class="row cardPaquete">
+
+
+        <div class="card mb-3 " style="max-width: 540px;">
           <div class="row g-0">
             <div class="col-md-4">
-              <img src="../img/budapestcard.jpg" class="img-fluid rounded-start" alt="parlamento budapest">
+              <img src="../img/paquetes/budapest1.jpg" class="img-fluid rounded-start" alt="pareja budapest">
             </div>
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">Vienna y Budapest </h5>
                 <p class="card-text">Explora lo mejor de estas 2 ciudades con este tour
                   pensado para vos!</p>
-                <p class="card-text"><small class="text-body-secondary">Tour 6 dias</small></p>
+                <p class="card-text"><small class="text-body-secondary">Duración: 4 días</small></p>
                 <h4 class="card-title mb-3">$<strong>20.000</strong></h4>
                 <div>
-                  <button type="button" class="btn btn-dark">Comprar Tour</button>
+                  <button type="button" class="btnComprarTour">Comprar Tour</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-          <div class="card mb-3" style="max-width: 540px;">
-            <div class="row g-0">
-              <div class="col-md-4">
-                <img src="../img/budapestcard.jpg" class="img-fluid rounded-start" alt="parlamento budapest">
-              </div>
-              <div class="col-md-8">
-                <div class="card-body">
-                  <h5 class="card-title">Vienna y Budapest </h5>
-                  <p class="card-text">Explora lo mejor de estas 2 ciudades con este tour
-                    pensado para vos!</p>
-                  <p class="card-text"><small class="text-body-secondary">Tour 6 dias</small></p>
-                  <h4 class="card-title mb-3">$<strong>20.000</strong></h4>
-                  <div>
-                    <button type="button" class="btn btn-dark">Comprar Tour</button>
-                </div>
+
+        <div class="card mb-3 " style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/paquetes/budapest3.jpg" class="img-fluid rounded-start" alt="parlamento budapest">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Termas de Budapest</h5>
+                <p class="card-text">Disfruta de las termas más famosas de Budapest en este relajante tour.</p>
+                <p class="card-text"><small class="text-body-secondary">Duración: 1 día</small></p>
+                <h4 class="card-title mb-3">$<strong>50.000</strong></h4>
+                <div>
+                  <button type="button" class="btnComprarTour">Comprar Tour</button>
                 </div>
               </div>
             </div>
           </div>
         </div>
-    </main>
-    <footer>
-        <p>Sitio web creado por Tamara Dickerhof - Derechos reservados </p>
-        <p id="final">No copiar</p>
 
-    </footer>
+        <div class="card mb-3 " style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/paquetes/liubliana1.jpg" class="img-fluid rounded-start" alt="parlamento budapest">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Liubliana y Lago Bled</h5>
+                <p class="card-text">Paseo por Liubliana, la capital verde de Europa, y el famoso lago Bled. </p>
+                <p class="card-text"><small class="text-body-secondary">Duración: 4 días</small></p>
+                <h4 class="card-title mb-3">$<strong>300.000</strong></h4>
+                <div>
+                  <button type="button" class="btnComprarTour">Comprar Tour</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
-        </script>
+        <div class="card mb-3 " style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/paquetes/milan1.jpg" class="img-fluid rounded-start" alt="parlamento budapest">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Milan y Venecia</h5>
+                <p class="card-text">Disfruta de la ciudad de la moda y recorre los canales de Venecia con este Tour!
+                </p>
+                <p class="card-text"><small class="text-body-secondary">Duración: 5 días</small></p>
+                <h4 class="card-title mb-3">$<strong>150.000</strong></h4>
+                <div>
+                  <button type="button" class="btnComprarTour">Comprar Tour</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 " style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/paquetes/praga1.jpg" class="img-fluid rounded-start" alt="parlamento budapest">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Praga y Budapest</h5>
+                <p class="card-text">Enamorate de estas dos ciudades con este Tour imperdible bajo la blanca nieve del
+                  invierno!!</p>
+                <p class="card-text"><small class="text-body-secondary">Duración: 10 días</small></p>
+                <h4 class="card-title mb-3">$<strong>500.000</strong></h4>
+                <div>
+                  <button type="button" class="btnComprarTour">Comprar Tour</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 " style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/paquetes/salzburgo1.jpg" class="img-fluid rounded-start" alt="parlamento budapest">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Salzburgo y Vienna</h5>
+                <p class="card-text">Recorre los castillos mas famosos de Salzburgo y la imperdible ópera de Vienna.</p>
+                <p class="card-text"><small class="text-body-secondary">Duración: 9 días</small></p>
+                <h4 class="card-title mb-3">$<strong>900.000</strong></h4>
+                <div>
+                  <button type="button" class="btnComprarTour">Comprar Tour</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 " style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/paquetes/venecia1.jpg" class="img-fluid rounded-start" alt="parlamento budapest">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Venecia y Liubliana</h5>
+                <p class="card-text">En este tour recorreras los canales de Venecia y los de Liubliana.</p>
+                <p class="card-text"><small class="text-body-secondary">Duración: 8 días</small></p>
+                <h4 class="card-title mb-3">$<strong>190.000</strong></h4>
+                <div>
+                  <button type="button" class="btnComprarTour">Comprar Tour</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mb-3 " style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/paquetes/viena1.jpg" class="img-fluid rounded-start" alt="parlamento budapest">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Royal Vienna</h5>
+                <p class="card-text">Si te encantan los castillos y su historia, este Tour es para vos!</p>
+                <p class="card-text"><small class="text-body-secondary">Duración: 3 días</small></p>
+                <h4 class="card-title mb-3">$<strong>140.000</strong></h4>
+                <div>
+                  <button type="button" class="btnComprarTour">Comprar Tour</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="card mb-3 " style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="../img/paquetes/budapestcard.jpg" class="img-fluid rounded-start" alt="parlamento budapest">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Budapest y Liubliana</h5>
+                <p class="card-text">Recorre estas históricas ciudades con este Tour imperdible.</p>
+                <p class="card-text"><small class="text-body-secondary">Duración: 7 días</small></p>
+                <h4 class="card-title mb-3">$<strong>200.000</strong></h4>
+                <div>
+                  <button type="button" class="btnComprarTour">Comprar Tour</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!--------------------------------- FOOTER -------------------------------------------->
+
+  <footer>
+    <div class="autor">
+      <p>Sitio web creado por Tamara Dickerhof - Derechos reservados </p>
+    </div>
+
+    <div class="redesSociales">
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+      <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
+    </script>
 </body>
 
 </html>

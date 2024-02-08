@@ -5,18 +5,73 @@
 
 
 body {
-    background-color: rgb(226, 248, 255);
-    font-family: 'Montserrat', sans-serif;
+    background-color: $bg-color;
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+
+
 
 }
 
 h1 {
     position: center;
     text-align: center;
+    text-transform:uppercase;
+    font-family:'Bevan', sans-serif;
+    font-size: 60px;
+    margin-bottom: 25px;
+    margin-top: 25px;
 }
+
+h2 {
+    position: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+
+h3  {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+
+}
+
+h4  {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    margin-bottom: 15px;
+
+
+}
+
+h5 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 
 .imgLogo {
     width: 60px;
     height: 70px;
 
 }
+
+
+
+.btnLetsGo {
+    background: linear-gradient(to right, $color-bordertop, $color-fondo);
+    padding: 15px;
+    color: #fafafa;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Open Sans', sans-serif;
+
+
+
+}
+
+

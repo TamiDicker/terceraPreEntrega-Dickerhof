@@ -7,7 +7,7 @@ footer {
     padding: 20px;
     border-top: 5px black solid;
     text-align: center;
-    background-color: rgb(86, 165, 192) /*por alguna razon $color-bordertop no me lo toma aca, me tira error */;
+    background-color: $color-bordertop ;
   
     p {
         @include anclas;
@@ -15,7 +15,7 @@ footer {
     }
   
     i {
-      margin-right: 10px;
+      margin-right: 15px;
     }
   }
   
